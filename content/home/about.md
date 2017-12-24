@@ -10,31 +10,26 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "iOS Development",
+    "Web Technologies",
+    "Android Development"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "Master of Computer Applications"
+  institution = "National Institute of Technology - Tiruchirappalli"
   year = 2009
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
+  course = "B.Sc., in Physics"
+  institution = "St. Joseph's College - Tiruchirappalli"
+  year = 2009
+
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Vijay K A S is an iOS Developer at Tesco Bengaluru. I work on the retail app of Tesco and my major contribution is towards the Self-Checkout feature. My designation is SDE-I(equalent to Technical Lead). I'm fascinated by technology and I explore ways to enhance my skill-set in all possible ways.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Though my primary work is on iOS, my personal interests helped me to have hands-on experience in Android Development, React.js, Redux, CSS3 and HTML. Developed and maintaining the site https://schoolsinfo.in.
