@@ -43,7 +43,7 @@ Hence, editing the above example, we get:
 Solution: use 6 backslashes for a line break, for example:
 
 ```
-$$\begin{eqnarray} 
+$$\begin{eqnarray}
 y &=& 1+1   \\\\\\
 &=& 2
 \end{eqnarray}$$

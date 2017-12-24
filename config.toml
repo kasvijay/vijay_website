@@ -8,6 +8,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
 
+# Added by Vijay
+publishDir = "docs"
+canonifyURLs = true
+contentDir = "content"
+buildDrafts = true
+
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
@@ -64,7 +70,7 @@ defaultContentLanguageInSubdir = false
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = ""
+  logo = "v_logo.png"
 
   # Enable/disable map in Contact widget.
   # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
