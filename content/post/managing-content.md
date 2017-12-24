@@ -1,10 +1,10 @@
-+++
+#+++
 date = 2016-04-18
 draft = false
 tags = ["academic", "hugo"]
 title = "Managing content"
 math = false
-+++
+#+++
 
 This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about [writing content with Markdown, LaTeX, and Shortcodes]({{< ref "post/writing-markdown-latex.md" >}}).<!--more-->
 
@@ -12,7 +12,7 @@ To enable LaTeX math rendering for a page, you should include `math = true` in t
 
 To disable source code highlighting by default for all pages, set `highlight = false` in `config.toml`. You can then enable source code highlighting only on pages that need it by setting `highlight = true` in that page's preamble. See the [code-highlighting docs]({{< ref "post/writing-markdown-latex.md#code-highlighting" >}}) for more details.
 
-To display a featured image in content page headers, the parameters below can be inserted towards the end of a page's `+++` preamble. It is assumed that the image is located in your `static/img/` folder, so the full path in the example below will be `static/img/headers/getting-started.png`. The `caption` parameter can be used to write an image caption or credit. 
+To display a featured image in content page headers, the parameters below can be inserted towards the end of a page's `+++` preamble. It is assumed that the image is located in your `static/img/` folder, so the full path in the example below will be `static/img/headers/getting-started.png`. The `caption` parameter can be used to write an image caption or credit.
 
 ```toml
 [header]
@@ -186,7 +186,7 @@ You can edit the title and add your own content, such as an introduction, by cop
     /themes/academic/exampleSite/content/post/_index.md
     /themes/academic/exampleSite/content/publication/_index.md
     /themes/academic/exampleSite/content/talk/_index.md
-    
+
 Then edit the `title` parameter in each `_index.md` as desired and add any content after the `+++` preamble/frontmatter ends. You will notice that the `_index.md` files differ slightly, with some having special options available for the associated content type. For example, `publication/_index.md` contains an option for setting the citation style of the listings which appear on the publication archive page.
 
 ## Removing content
